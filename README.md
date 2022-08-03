@@ -1,1 +1,9 @@
-# sherif
+Step1: Input string from the user and store in a variable named as str.
+Step2: I take a variable "n=0" to n the frequency of each character.
+Step3: To go through every element i take outer for "i=0".
+Step4: Inner for loop "j=i+1" "(i=0;i<n;i++)".
+Step5: Initialize the second for lopp as "(j=i+1;j<n;j++)".
+Step6: Inside the for loop an if condition is applied to check the string until space(a[i]!=" ").
+Step7: Inside the if condition check if a[i]==a[j],if it is true then count gets increment(count++).
+Step8: After every time each character gets counted it prints the count of the element(printf("%s=%d",str,count)).
+Step9: After printing the frequency of the element the count value assign to 0.
