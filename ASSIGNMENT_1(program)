@@ -1,0 +1,31 @@
+a = []
+new_a = ''
+while new_a != 'z':
+    new_a = input("ENTER CHARACTER / EXIT:'z' : ")
+    if new_a != 'z':
+        a.append(new_a)
+count = 1
+n = len(a)
+for i in range(0,n):
+    if(a[i]!=" "):
+        for j in range(i+1,n):
+            if(a[i]==a[j]):
+                count+=1
+                a[j]=" "
+        print(a[i],count)
+        count = 1
+       
+
+OUTPUT :
+
+ENTER CHARACTER / EXIT:'z' : a
+ENTER CHARACTER / EXIT:'z' : b
+ENTER CHARACTER / EXIT:'z' : c
+ENTER CHARACTER / EXIT:'z' : b
+ENTER CHARACTER / EXIT:'z' : n
+ENTER CHARACTER / EXIT:'z' : a
+ENTER CHARACTER / EXIT:'z' : z
+a 2
+b 2
+c 1
+n 1
