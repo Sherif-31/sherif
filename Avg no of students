@@ -1,0 +1,11 @@
+num=0
+tot=0
+count=0
+while(num!=0):
+    num=int(inpit("Enter a number(0 to stop):"))
+    if(num==0):
+        break
+    count+=1
+    tot+=num
+    avg=tot/count
+print("the average of the given number is:",avg)
