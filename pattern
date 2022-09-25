@@ -1,0 +1,9 @@
+num = int(input("Enter the range : "))              
+for i in range(0,num):                              
+    for j in range(0,num):                          
+        #1st row , 1st column and last row and column
+        if (j==0 or i==0 or i==num-1 or j==num-1):  
+            print(num,end=" ")                      
+        else:
+            print(" ",end=" ")                      
+    print()             
